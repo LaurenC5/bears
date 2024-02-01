@@ -1,0 +1,318 @@
+:root {
+  --color1: #C83803;
+  --color2: #0B162A;
+  --color3: #FFFFFF;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-color: var(--color2);
+}
+header {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color1);
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+header figure {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 65px;
+  margin-right: 1350px;
+  max-width: 8%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 220px;
+  font: 30px/15px;
+  font-weight: bolder;
+}
+nav a:link,
+nav a:visited {
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a {
+  /* replaces the "default blue" lunks with parent color: */
+  color: var(--color3);
+}
+/* styling search bar */
+.search input [type=text] {
+  width: 300px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+}
+.search {
+  float: right;
+  margin: 25px;
+}
+main {
+  /*sets padding: top, right+left, bottom: */
+  padding: 1.75em 30px 2em;
+  line-height: 1.85em;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color2);
+}
+.container1 {
+  width: 100%;
+  display: flex;
+}
+.sub-container1 {
+  flex: 1;
+  display: flex;
+  width: 50%;
+  float: left;
+}
+.item1 {
+  flex: 1;
+  margin: 0.5%;
+}
+.item2 {
+  flex: 1;
+  margin: 0.5%;
+}
+.item3 {
+  flex: 1;
+  margin: 0.5%;
+}
+f1 {
+  display: flex;
+  max-width: 0.5%;
+  max-height: 30%;
+  margin-top: 27px;
+}
+figcaption1 {
+  text-align: left;
+  padding-top: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--color3);
+}
+figcaption2 {
+  text-align: left;
+  padding-top: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--color3);
+}
+p1 {
+  width: 15%;
+  font-weight: bolder;
+  font-size: 15px;
+  color: var(--color3);
+  margin-left: 39px;
+}
+.sub-container2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float: right;
+}
+f2 {
+  display: flex;
+  max-width: 25px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+figcaption3 {
+  text-align: right;
+  padding-top: 2px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--color3);
+  margin-left: 400px;
+}
+figcaption4 {
+  text-align: right;
+  padding-top: 2px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--color3);
+  margin-left: 315px;
+}
+p2 {
+  width: 15%;
+  font-size: 15px;
+  font-weight: bolder;
+  color: var(--color3);
+  margin-left: 245px;
+}
+f3 {
+  display: flex;
+  max-width: 25px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+figcaption5 {
+  text-align: right;
+  padding-top: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--color3);
+  margin-left: 364px;
+}
+figcaption6 {
+  text-align: right;
+  padding-top: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--color3);
+  margin-left: 457px;
+}
+p3 {
+  width: 15%;
+  font-size: 15px;
+  font-weight: bolder;
+  color: var(--color3);
+  margin-left: 164px;
+}
+main2 {
+  /*sets padding: top, right+left, bottom: */
+  padding: 1.75em 30px 2em;
+  line-height: 1.85em;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color2);
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+figure2 {
+  margin-left: 60px;
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 100%;
+}
+figure3 {
+  margin-left: 350px;
+  margin-right: 50px;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+figure4 {
+  dispaly: center;
+}
+h3 {
+  color: var(--color1);
+}
+p5 {
+  color: var(--color3);
+}
+p6 {
+  color: var(--color3);
+}
+  )
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color2);
+  overflow: hidden;
+}
+nav2 {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding-right: 50px;
+  position: absolute;
+  padding-bottom: 10px;
+  background-color: var(--color2);
+}
+.circle {
+  width: 75px;
+  height: 75px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 50%;
+  font-size: 23px;
+  color: var(--color2);
+  line-height: 75px;
+  text-align: center;
+  background: var(--color1);
+}
+nav2 a:link,
+nav2 a:visited {
+  padding: 10px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+nav2 a {
+  /* replaces the "default blue" lunks with parent color: */
+  color: var(--color2);
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: var(--color3);
+  margin-bottom: 150px;
+  margin-top: 70px;
+  width: 1400px;
+}
+f4 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 200px;
+  padding-top: 20px;
+  margin-left: 130px;
+}
+h4 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: var(--color2);
+  margin-left: 340px;
+}
+ p7 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 120px;
+  margin-left: 530px;
+  position: absolute;
+  word-spacing: 50px;
+  color: var(--color2);
+  background-color: var(--color3);
+}
+figcaption7 {
+  text-align: center;
+  padding: 2px 1px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 110px;
+  color: var(--color2);
+  padding-left: 65px;
+}
+figcaption8 {
+  text-align: center;
+  padding: 2px 1px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: var(--color2);
+  margin-left: 420px;
+}
+f5 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 200px;
+  padding-top: 20px;
+  margin-left: 360px;
+  position: absolute;
+}
